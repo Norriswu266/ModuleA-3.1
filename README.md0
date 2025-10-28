@@ -1,1 +1,11 @@
 # ModuleA-3.1
+
+一套標準化、可重複的流程來為客戶部署 Azure 登陸區 (Azure Landing Zone, ALZ)。部署時，設計流程至少要涵蓋以下三個領域的規劃與設定：
+
+- 身份識別 (Identity)：
+  必須導入身份管理解決方案，例如 Microsoft Entra ID (舊稱 Azure AD) 或其他同等方案。
+- 網路架構 (Networking)：
+  必須定義清晰的 Azure Topology。
+  必須應用混合雲架構，使用 Azure ExpressRoute、VPN Gateway 或同等服務，將客戶的本地資料中心與 Azure 連接。
+- 資源組織 (Resource Organization)：
+  在專案執行過程中，必須實施標籤 (tagging) 和命名標準 (naming standards)
